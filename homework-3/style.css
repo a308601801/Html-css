@@ -1,0 +1,202 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+
+nav, section, footer {
+    width: 100%;
+}
+
+nav {
+    height: 450px;
+    background-color: white;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+section {
+    height: 1800px;
+    background-color: lightgray;
+}
+
+footer {
+    height: 600px;
+    background-color: rgb(63, 10, 236);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color: white;
+    padding-left: 230px;
+}
+
+nav li {
+    flex-direction: row;
+    padding: 20px 20px;
+    color: rgb(82, 79, 79);
+}
+
+nav .nav-item {
+    padding-top: 13px; 
+    color: rgb(82, 79, 79);
+}
+#nav-f:hover + #mf{
+    display: block;
+}
+
+#nav-s:hover + #ms{
+    display: block;
+}
+
+.content {
+    width: 70%;
+    margin: auto auto;
+}
+
+.nav-l {
+    margin: 10px 100px;
+}
+
+h1 {
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+aside {
+    float: right;
+    margin-top: 30px;
+    color: rgb(41, 41, 143);
+    font-weight: 600;
+}
+
+#asid-a:hover {
+    text-decoration: none;
+}
+
+.tit {
+    font-size: 1.7em;
+    font-family:  sans-serif;
+    padding: 50px 0 10px 1%;
+}
+
+#box {
+    display: flex;
+    flex-flow: wrap row;
+}
+
+.sec-box {
+    height: 350px;
+    flex-grow: 1;
+    justify-content: space-between;
+    margin: 1%;
+    background-color: white;
+}
+
+#b1, #b6 {
+    width: 48%; 
+}
+
+#b2, #b3, #b4, #b5 {
+    width: 23%;
+}
+
+#link {
+    height: 230px;
+    display: flex;
+}
+
+#link ul {
+    width: 25%;
+    list-style: none;    
+    flex-direction: row;
+    width:40%;
+    padding: 0;
+}
+
+#link li {
+    color: blue;
+    margin: 10px;
+}
+
+.l-b {
+    color: rgb(88, 78, 78) !important;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+
+#b-p {
+    color: rgb(88, 78, 78) !important;
+}
+
+#cards {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    height: 320px;
+}
+
+.sec-btn {
+    margin-top:40px;
+    position: absolute;
+    left: 47%;
+}
+
+
+#bot-tex {
+    font-size: 30px;
+    width: 500px;
+    height: 400px;
+    color: white;
+    padding: 100px;
+    float: left;
+}
+
+#bottom ul {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none; 
+    justify-content: space-between;
+    width: 900px;
+    color: white;
+}
+#bottom ul li {
+    color: white;
+}
+
+#bot-form {
+    float: right;
+    width: 800px;
+    padding: 100px;
+    color: white;
+    padding-bottom: 40px;
+}
+
+#bot-btn {
+    color: rgb(28, 129, 197); 
+    background-color: white;
+    font-weight: 600;
+}
+
+#bt-btn {
+    margin-left: 40px;
+}
+
+#test:active + #test2{
+    display: block !important;
+}
+
+.icons {
+    width: 200px !important;
+    float: right;
+    padding-top: 10px;
+}
+
+.icons a {
+    color: white;
+}
+.icons a:hover {
+    color: lightgray;
+}
