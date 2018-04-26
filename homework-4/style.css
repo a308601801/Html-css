@@ -1,0 +1,146 @@
+.top {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+}
+
+.lb-nav {
+    display: flex;
+    list-style: none;
+    background: rgb(64, 66, 156);
+}
+
+.lb-nav a {color: white;}
+.lb-nav a:hover {text-decoration: none; color: white;;}
+
+.b-nav h3{
+   float: left;
+}
+
+.b-nav list {
+    float: right;
+}
+
+.b-nav list li {
+    padding: 10px;
+    display: inline;
+}
+
+.nav-sc {
+    float: right;
+    top: 20px;
+}
+
+.img-p ul{
+    list-style: inherit;
+    float: left;
+    margin-top: 20px;
+}
+
+.bigimg {
+    border: 2px solid black;
+    width: 100%;
+    height: 330px;
+    background: url(https://www.rijksoverheid.nl/binaries/widescreen/content/gallery/rijksoverheid/attentie-afbeeldingen/home/2018/03/schoolvakanties-en-officiele-feestdagen-hero.jpg);
+}
+
+.article-boxs {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background: rgb(245, 241, 241);
+}
+
+.article-boxs div {
+    width: 250px;
+    height: 170px;
+    border: 1px solid black;
+}
+
+.img-boxs {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.img-boxs div {
+    width: 320px;
+    height: 170px;
+    border: 1px solid black;
+}
+
+.Nieuws {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.Nieuws div {
+    width: 320px;
+    height: 170px;
+    border: 1px solid black;
+}
+
+.Meer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.Meer div {
+    width: 350px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+footer {
+    height: 350px;
+    background: rgb(61, 79, 155);
+    color: white;
+    margin: 20px 0;
+}
+
+.f-l {
+    float: left;
+    font-family: fantasy;
+}
+
+.f-r {
+    float: right;
+    display: flex;
+}
+
+.f-r list {
+    flex-flow: row;
+    padding: 10px;
+}
+
+.f-r list ul {
+    list-style: none;
+}
+
+.bot-nav {
+    padding: 10px;
+    text-align: center;
+}
+
+.bot-nav ul li{
+    display: inline;
+}
+
+.bot-nav a {
+    border: 1px solid lightblue;
+    padding: 10px;
+    color: blue;
+}
+
+.bot-nav a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
